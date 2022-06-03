@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+body {
+  background-color: rgb(53, 48, 48);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  font-size: 3rem; /* tamaño del texto delos divs */
+  display: flex;
+  justify-content: center; /* centrar el comntenido */
+  align-items: center; /* centrar el comntenido */
+  border-radius: 10px; /* redondea los bordes */
+  background-size: cover; /* ubica la foto dentro del contenedor */
+  background-position: center; /* centra la foto en el contenedor */
+  transition: all 0.6s; /* establece el tiempo de la transicion */
+  box-shadow: black 0.5px 0.5px 10px; /* sombra del contenedor: color, vertical, horizontal y esfumado */
+
+  /* imagen */
+
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+
+div:hover {
+  cursor: pointer; /* cambia el cursor a manito */
+  transform: scale(1.02); /* escala el tamaño */
+}
+
+.hide {
+  display: none;
+  transition: all 0.6s; /* establece el tiempo de la transicion */
+}
+
+.tres:hover .hide {
+  display: block;
+  animation: fadeIn;
+  --animate-duration: 2s;
+}

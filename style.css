@@ -1,0 +1,81 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .ancho {
+    grid-column: span 2 / auto;
+  }
+
+  .muyAncho {
+      grid-column: span 3 / auto;
+  }
+
+  .alto {
+      grid-row: span 2 / auto;
+  }
+
+}
+
+
+
+
+
+.cartel {
+
+  background-color: cadetblue;
+}
+
+
+.uno {
+  background-image: url("img/1.jpg");
+}
+
+.dos {
+  background-image: url("img/2.jpg");
+ }
+
+
+
+
+.tres {
+  background-image: url("img/3.jpg");
+}
+
+.cuatro {
+  background-image: url("img/4.jpg");
+}
+
+.cinco {
+  background-image: url("img/5.jpg");
+}
+
+.seis {
+  background-image: url("img/6.jpg");
+}
+
+.siete {
+  background-image: url("img/7.jpg");
+}
+.ocho {
+  background-image: url("img/8.jpg");
+}
+
+.nueve {
+  background-image: url("img/9.jpg");
+}
+
+.diez {
+  background-image: url("img/10.jpg");
+}
+
+.once {
+  background-image: url("img/11.jpg");
+}
+
+.doce {
+  background-image: url("img/12.jpg");
+}
